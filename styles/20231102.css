@@ -86,7 +86,7 @@ gap: 5px;
 footer span a {
   color: var(--text-color);
   text-decoration-line: underline;
-  text-decoration-thickness: 0.2em;\
+  text-decoration-thickness: 0.2em;
   text-decoration-style: dashed;
   text-underline-offset: 4px;
 }
