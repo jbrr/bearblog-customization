@@ -2,16 +2,16 @@
   --width: 800px;
   --font-main: 'IBM Plex Sans', sans-serif;
   --font-secondary: 'IBM Plex Sans', sans-serif;
-   --font-mono: 'IBM Plex Mono', monospace;
-   --font-quote: 'IBM Plex Serif', serif;
-   --font-title: 'Work Sans', sans-serif;
+  --font-mono: 'IBM Plex Mono', monospace;
+  --font-quote: 'IBM Plex Serif', serif;
+  --font-title: 'Work Sans', sans-serif;
   --font-scale: 1.1em;
   --font-scale-caption: 0.9em;
   --background-color: #fff;
   --heading-color: #222;
   --text-color: #444;
   --link-color: #3D90C7;
-   --nav-link-color: #E16B01;
+  --nav-link-color: #E16B01;
   --visited-color:  #8b6fcb;
   --code-background-color: #f2f2f2;
   --code-color: #222;
@@ -55,6 +55,24 @@ div.wrapper {
   width: 100%;
   margin-bottom: 3em;
   justify-content: space-between;
+}
+
+div.h-card {
+  float: inline-end;
+  padding: 0em 0.75em 0.75em;
+  border: 0.15em solid var(--nav-link-color)
+}
+
+a.u-key {
+	float: inline-end;
+  	text-decoration: none;
+  	color: var(--text-color);
+}
+
+a.u-key:hover {
+	font-weight: bold;
+  	text-decoration: none;
+  	color: var(--nav-link-color);
 }
 
 span#socials {
