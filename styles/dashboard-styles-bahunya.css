@@ -60,6 +60,12 @@ body {
   text-rendering: optimizeLegibility;
 }
 
+@media only screen and (max-device-width: 480px) {
+    body {
+        margin: 8rem auto;
+    }
+}
+
 @media (prefers-color-scheme: dark) {
   .helptext.sticky, .sticky-controls {
     background-color: var(--background-body-alt);
