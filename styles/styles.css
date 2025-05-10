@@ -57,10 +57,29 @@ div.wrapper {
   justify-content: space-between;
 }
 
-div.h-card {
-  float: inline-end;
-  padding: 0em 0.75em 0.75em;
-  border: 0.15em solid var(--nav-link-color)
+
+
+@media only screen and (max-width: 380px) and (min-width: 490px) {
+    div.h-card {
+      float: inline;
+        padding: 0em 0.75em 0.75em;
+        border: 0.15em solid var(--nav-link-color)
+    }
+    div.flex-container {
+      display: flex;
+      justify-content: flex-end;
+    }
+    img.u-photo {
+      width: 90%;
+    }
+}
+
+@media only screen and (min-width: 490px) {
+  div.h-card {
+    float: inline-end;
+    padding: 0em 0.75em 0.75em;
+    border: 0.15em solid var(--nav-link-color)
+  }
 }
 
 a.u-key {
